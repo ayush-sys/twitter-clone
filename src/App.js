@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
+import Feed from './components/Feed';
+
 
 function App() {
   return (
     <div className='app'>
-      <h1>Hey, This is twitter clone !</h1>
+      {/* App components */}
 
       {/* Sidebar */}
       <Sidebar/>
 
-
       {/* Feed */}
-
+      <Feed/>
 
       {/* Widgets */}
 

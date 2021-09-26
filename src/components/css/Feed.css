@@ -1,0 +1,11 @@
+.feed{
+    padding-left: 20px;
+}
+
+.feed > h2{
+    color: aliceblue;
+}
+
+.feed > h2:hover{
+    color: var(--twitter-color);
+}
