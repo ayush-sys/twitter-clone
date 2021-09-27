@@ -11,7 +11,7 @@ export default function Sidebar(){
     return(
         <div className='sidebar'>
             {/* Twitter Icon */}
-            <TwitterIcon/>
+            <TwitterIcon className='twitter-icon'/>
 
             {/* Sidebar Icons */}
             <SidebarOption text='Home' Icon={Home} active/>

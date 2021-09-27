@@ -1,11 +1,28 @@
+/* Complete feed sec */
 .feed{
-    padding-left: 20px;
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-bg);
+    min-width: fit-content;
+    overflow-y: scroll;
 }
 
-.feed > h2{
-    color: aliceblue;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.feed {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
-.feed > h2:hover{
-    color: var(--twitter-color);
+/* Header sec */
+.feed-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    padding: 15px 20px;
+    border: 1px solid var(--twitter-bg);
 }

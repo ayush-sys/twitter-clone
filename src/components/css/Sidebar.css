@@ -6,6 +6,12 @@
     padding: 0 20px;
 }
 
+.twitter-icon{
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin: 0 0 20px 20px;
+}
+
 .tweet-btn{
     background-color: var(--twitter-color) !important;
     border: none !important;
